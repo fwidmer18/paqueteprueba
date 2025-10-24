@@ -1,0 +1,38 @@
+---
+title: "vinieta_prueba"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinieta_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paqueteprueba)
+```
+
+# Paquete de prueba
+
+Este paquete contiene funciones simples de ejemplo para practicar el flujo de trabajo de creación de paquetes en R.
+
+Incluye funciones como:
+
+-   `suma()` — Suma dos números positivos con validaciones.
+-   `promedio_sin_na()` — Calcula el promedio de un vector numérico ignorando los valores faltantes.
+-   `resta()` — Resta dos valores numéricos.
+-   `multiplica()` — Multiplica dos números.
+
+------------------------------------------------------------------------
+
+## Cómo usar el paquete
+
+Primero, cargá el paquete:
+
+\`\`\`r library(paqueteprueba)su

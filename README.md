@@ -17,3 +17,7 @@ Podés instalar el paquete desde GitHub usando `devtools`:
 # Instalar el paquete desde tu repositorio
 
 devtools::install_github(“tuUsuario/paqueteprueba”)
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/fwidmer18/paqueteprueba/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/fwidmer18/paqueteprueba/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->

@@ -6,3 +6,4 @@ data_raw/
 ^docs$
 ^pkgdown$
 ^LICENSE\.md$
+^\.github$
